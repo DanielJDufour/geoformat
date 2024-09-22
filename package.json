@@ -1,0 +1,26 @@
+{
+  "name": "geoformat",
+  "version": "0.0.0",
+  "description": "Normalized Geospatial Format Information",
+  "main": "./geoformat.js",
+  "files": [
+    "geoformat.js"
+  ],
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=200 --trailing-comma=none --write *.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "extension",
+    "format",
+    "geospatial",
+    "geotiff",
+    "jpg",
+    "png"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "flug": "^2.8.2"
+  }
+}
